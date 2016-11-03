@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.virtusx.DB.GamesEntity" table="games" schema="mydb">
+        <id name="gameId">
+            <column name="game_id" sql-type="int(11)"/>
+        </id>
+        <property name="gameName">
+            <column name="game_name" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="gameAuthors">
+            <column name="game_authors" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="gamePic">
+            <column name="game_pic" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="gameAbout">
+            <column name="game_about" sql-type="varchar(300)" length="300" not-null="true"/>
+        </property>
+    </class>
+    <class name="com.virtusx.DB.UsersEntity" table="users" schema="mydb">
+        <id name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </id>
+        <property name="userName">
+            <column name="user_name" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="userPassword">
+            <column name="user_password" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="userEmail">
+            <column name="user_email" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="userPic">
+            <column name="user_pic" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="userBirthday">
+            <column name="user_birthday" sql-type="date" not-null="true"/>
+        </property>
+        <property name="userLocation">
+            <column name="user_location" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="userAbout">
+            <column name="user_about" sql-type="varchar(300)" length="300" not-null="true"/>
+        </property>
+    </class>
+    <class name="com.virtusx.DB.UserGamesEntity" table="user_games" schema="mydb">
+        <id name="gUId">
+            <column name="g_u_id" sql-type="int(11)"/>
+        </id>
+        <property name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </property>
+        <property name="gameId">
+            <column name="game_id" sql-type="int(11)"/>
+        </property>
+    </class>
+</hibernate-mapping>
