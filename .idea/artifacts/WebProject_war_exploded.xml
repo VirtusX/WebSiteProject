@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.2.3-5.2.3" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.40-bin" />
+          <element id="library" level="application" name="commons-logging-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
