@@ -1,46 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ef3c9fa-a3c7-4ab8-9cdb-e620a17ec983" name="Default" comment="Has added password validation in profile and some animations">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/scripts/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/assets/fonts/TradeWinds-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/images/pic11.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner.jpg" afterPath="$PROJECT_DIR$/web/assets/images/banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic02.jpg" afterPath="$PROJECT_DIR$/web/assets/images/pic02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/GamesEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/GamesEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UserGamesEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UserGamesEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UsersEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/GamesEntity.class" afterPath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/GamesEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UserGamesEntity.class" afterPath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UserGamesEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UsersEntity.class" afterPath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UsersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/685c1bb6-748b-4f24-8718-914e11c70b4a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/685c1bb6-748b-4f24-8718-914e11c70b4a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="9ef3c9fa-a3c7-4ab8-9cdb-e620a17ec983" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebProject.iml" afterPath="$PROJECT_DIR$/WebProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/assets/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/edit_game.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/edit_game.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/game.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/game.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/profile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/profile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/virtusx/DB/GamesEntity.java" afterPath="$PROJECT_DIR$/src/com/virtusx/DB/GamesEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/virtusx/DB/UserGamesEntity.java" afterPath="$PROJECT_DIR$/src/com/virtusx/DB/UserGamesEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/virtusx/DB/UsersEntity.java" afterPath="$PROJECT_DIR$/src/com/virtusx/DB/UsersEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile.jsp" afterPath="$PROJECT_DIR$/web/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/scripts/main.js" afterPath="$PROJECT_DIR$/web/assets/scripts/main.js" />
     </list>
     <ignored path="WebProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,18 +33,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/assets/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding>
-                <marker date="1478550648692" expanded="true" signature="84:531" ph="{...}" />
-                <marker date="1478550648692" expanded="true" signature="551:1049" ph="{...}" />
-                <marker date="1478550648692" expanded="true" signature="599:1046" ph="{...}" />
-                <marker date="1478550648692" expanded="true" signature="1067:1239" ph="{...}" />
-                <marker date="1478550648692" expanded="true" signature="1109:1236" ph="{...}" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/virtusx/DB/UsersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
@@ -241,11 +198,11 @@
         <option value="$PROJECT_DIR$/src/com/virtusx/service/UserService.java" />
         <option value="$PROJECT_DIR$/web/profile.jsp" />
         <option value="$PROJECT_DIR$/web/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/web/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/virtusx/DB/UserGamesEntity.java" />
         <option value="$PROJECT_DIR$/src/com/virtusx/DB/GamesEntity.java" />
         <option value="$PROJECT_DIR$/src/com/virtusx/DB/UsersEntity.java" />
+        <option value="$PROJECT_DIR$/web/assets/scripts/main.js" />
       </list>
     </option>
   </component>
@@ -898,7 +855,7 @@
       <workItem from="1478353642595" duration="9004000" />
       <workItem from="1478384312833" duration="4824000" />
       <workItem from="1478436505940" duration="3273000" />
-      <workItem from="1478453490419" duration="23276000" />
+      <workItem from="1478453490419" duration="24407000" />
     </task>
     <task id="LOCAL-00001" summary="Removed useless files">
       <created>1478194289384</created>
@@ -907,11 +864,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478194289384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Has added password validation in profile and some animations">
+      <created>1478550831337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478550831337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213091000" />
+    <option name="totallyTimeSpent" value="214222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1351,20 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <marker date="1478550648692" expanded="true" signature="84:531" ph="{...}" />
-            <marker date="1478550648692" expanded="true" signature="551:1049" ph="{...}" />
-            <marker date="1478550648692" expanded="true" signature="599:1046" ph="{...}" />
-            <marker date="1478550648692" expanded="true" signature="1067:1239" ph="{...}" />
-            <marker date="1478550648692" expanded="true" signature="1109:1236" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1393,6 +1343,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
