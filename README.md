@@ -1,4 +1,4 @@
-Simpliest website. Using technology: Java Web Application, Hibernate. Database - MySQL.
+Simpliest website. Using technology: Java Web Application, Hibernate, JavaScript(JQuery),CSS. Database - MySQL.
 The idea is that a kind of a social network user page.
 
 Main page
