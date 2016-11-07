@@ -41,7 +41,8 @@
 <body>
 <div class="block">
     <form class="f1" action="${pageContext.request.contextPath}/profile" method="post">
-        <p class="first">Enter password: <input minlength="6" maxlength="45" id="pass1" title="pass1" type="password" name="pass1">
+        <p class="first">Enter password: <input minlength="6" maxlength="45" id="pass1" title="pass1" type="password"
+                                                name="pass1">
         <p>Repeat entry: <input minlength="6" maxlength="45" type="password" id="pass2" title="pass2" name="pass2"></p>
         <p class="first">Enter e-mail: <input maxlength="45" title="mail" type="email" name="mail">
         <p>Enter avatar url: <input maxlength="100" title="pic" type="url" name="pic">

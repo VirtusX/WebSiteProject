@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef3c9fa-a3c7-4ab8-9cdb-e620a17ec983" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/GamesEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/GamesEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UserGamesEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UserGamesEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UsersEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/WEB-INF/classes/com/virtusx/DB/UsersEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/GamesEntity.class" afterPath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/GamesEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UserGamesEntity.class" afterPath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UserGamesEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UsersEntity.class" afterPath="$PROJECT_DIR$/out/production/WebProject/com/virtusx/DB/UsersEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/scripts/main.js" afterPath="$PROJECT_DIR$/web/assets/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/assets/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/profile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebProject_war_exploded/profile.jsp" />
     </list>
     <ignored path="WebProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -855,7 +863,7 @@
       <workItem from="1478353642595" duration="9004000" />
       <workItem from="1478384312833" duration="4824000" />
       <workItem from="1478436505940" duration="3273000" />
-      <workItem from="1478453490419" duration="24407000" />
+      <workItem from="1478453490419" duration="24502000" />
     </task>
     <task id="LOCAL-00001" summary="Removed useless files">
       <created>1478194289384</created>
@@ -871,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478550831337</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Has added password validation in profile and some animations">
+      <created>1478551959711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478551959711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214222000" />
+    <option name="totallyTimeSpent" value="214317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

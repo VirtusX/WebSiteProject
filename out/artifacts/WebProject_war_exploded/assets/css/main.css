@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal
 }
-
 @font-face {
     font-family: 'Orbitron-Bold';
     src: url('../fonts/Orbitron-Bold.ttf');
@@ -70,6 +69,7 @@ header {
 .first {
     margin-top: 0;
 }
+
 .b1 {
     outline: solid 1px darkslateblue;
     width: 59%;
@@ -94,7 +94,8 @@ header {
     color: aquamarine;
     font-size: x-large;
 }
-.clicked{
+
+.clicked {
     background: black;
     font-size: 20px;
 }
@@ -138,22 +139,23 @@ table {
     width: 73%;
 }
 
-.title{
+.title {
     transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
-    text-shadow: 5px 5px 12px black,1px 1px 0 white;
+    text-shadow: 5px 5px 12px black, 1px 1px 0 white;
 }
-.title:hover{
+
+.title:hover {
     transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
-    text-shadow: 0 0 2px #fdfff0,12px 11px 12px #050600;
+    text-shadow: 0 0 2px #fdfff0, 12px 11px 12px #050600;
     color: black;
 }
 
-.wrong{
- box-shadow:0 0 0 2px red!important;
+.wrong {
+    box-shadow: 0 0 0 2px red !important;
 }
 
-.ok{
-    box-shadow: 0 0 0 2px #00ff15!important;
+.ok {
+    box-shadow: 0 0 0 2px #00ff15 !important;
 }
 
 input[type="text"],
