@@ -31,10 +31,10 @@
       <data-type>varchar(45)|0</data-type>
     </column>
     <column id="18" parent="12" name="game_pic">
-      <data-type>varchar(100)|0</data-type>
+      <data-type>varchar(200)|0</data-type>
     </column>
     <column id="19" parent="12" name="game_about">
-      <data-type>varchar(300)|0</data-type>
+      <data-type>varchar(500)|0</data-type>
     </column>
     <key id="20" parent="12" name="PRIMARY">
       <columns>game_id</columns>

@@ -11,7 +11,7 @@
 <jsp:forward page="index.jsp"/><%}%>
 <html>
 <head>
-    <title>VKakogoHera: <%=request.getParameter("name")%></title>
+    <title><%=request.getParameter("name")%></title>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/animate.css">
 </head>

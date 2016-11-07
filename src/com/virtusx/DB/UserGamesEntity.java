@@ -2,11 +2,8 @@ package com.virtusx.DB;
 
 import javax.persistence.*;
 
-/**
- * Created by x-13 on 02.11.2016.
- */
 @Entity
-@Table(name = "user_games", schema = "mydb", catalog = "")
+@Table(name = "user_games", schema = "mydb")
 public class UserGamesEntity {
     private int gUId;
     private int userId;
@@ -49,11 +46,8 @@ public class UserGamesEntity {
 
         UserGamesEntity that = (UserGamesEntity) o;
 
-        if (gUId != that.gUId) return false;
-        if (userId != that.userId) return false;
-        if (gameId != that.gameId) return false;
+        return gUId == that.gUId && userId == that.userId && gameId == that.gameId;
 
-        return true;
     }
 
     @Override

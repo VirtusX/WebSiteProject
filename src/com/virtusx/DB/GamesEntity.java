@@ -2,11 +2,8 @@ package com.virtusx.DB;
 
 import javax.persistence.*;
 
-/**
- * Created by x-13 on 02.11.2016.
- */
 @Entity
-@Table(name = "games", schema = "mydb", catalog = "")
+@Table(name = "games", schema = "mydb")
 public class GamesEntity {
     private int gameId;
     private String gameName;
@@ -45,7 +42,7 @@ public class GamesEntity {
     }
 
     @Basic
-    @Column(name = "game_pic", nullable = true, length = 45)
+    @Column(name = "game_pic", length = 45)
     public String getGamePic() {
         return gamePic;
     }
@@ -55,7 +52,7 @@ public class GamesEntity {
     }
 
     @Basic
-    @Column(name = "game_about", nullable = true, length = 300)
+    @Column(name = "game_about", length = 300)
     public String getGameAbout() {
         return gameAbout;
     }
@@ -71,13 +68,8 @@ public class GamesEntity {
 
         GamesEntity that = (GamesEntity) o;
 
-        if (gameId != that.gameId) return false;
-        if (gameName != null ? !gameName.equals(that.gameName) : that.gameName != null) return false;
-        if (gameAuthors != null ? !gameAuthors.equals(that.gameAuthors) : that.gameAuthors != null) return false;
-        if (gamePic != null ? !gamePic.equals(that.gamePic) : that.gamePic != null) return false;
-        if (gameAbout != null ? !gameAbout.equals(that.gameAbout) : that.gameAbout != null) return false;
+        return gameId == that.gameId && (gameName != null ? gameName.equals(that.gameName) : that.gameName == null && (gameAuthors != null ? gameAuthors.equals(that.gameAuthors) : that.gameAuthors == null && (gamePic != null ? gamePic.equals(that.gamePic) : that.gamePic == null && (gameAbout != null ? gameAbout.equals(that.gameAbout) : that.gameAbout == null))));
 
-        return true;
     }
 
     @Override

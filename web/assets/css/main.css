@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal
 }
-
 @font-face {
     font-family: 'Orbitron-Bold';
     src: url('../fonts/Orbitron-Bold.ttf');
@@ -20,7 +19,7 @@
 
 body, header,footer {
     font-family: "Zekton Rg", fantasy;
-    background: url("/images/banner.jpg") no-repeat;
+    background: url("/assets/images/banner.jpg") no-repeat;
     background-size: cover;
     color: #ffffff;
 }
@@ -70,6 +69,7 @@ header {
 .first {
     margin-top: 0;
 }
+
 .b1 {
     outline: solid 1px darkslateblue;
     width: 59%;
@@ -95,6 +95,11 @@ header {
     font-size: x-large;
 }
 
+.clicked {
+    background: black;
+    font-size: 20px;
+}
+
 .img2, .form,.front {
     margin-top: 5%;
 }
@@ -106,7 +111,7 @@ header {
     border-radius: 3px;
     width: 430px;
     height: 360px;
-    background: url("/images/pic02.jpg") no-repeat;
+    background: url("/assets/images/pic02.jpg") no-repeat;
     background-size: cover;
 
 }
@@ -132,6 +137,25 @@ table {
 
 #update {
     width: 73%;
+}
+
+.title {
+    transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+    text-shadow: 5px 5px 12px black, 1px 1px 0 white;
+}
+
+.title:hover {
+    transition: text-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+    text-shadow: 0 0 2px #fdfff0, 12px 11px 12px #050600;
+    color: black;
+}
+
+.wrong {
+    box-shadow: 0 0 0 2px red !important;
+}
+
+.ok {
+    box-shadow: 0 0 0 2px #00ff15 !important;
 }
 
 input[type="text"],
@@ -236,7 +260,7 @@ button,
     -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-    background: url("/images/banner.jpg");
+    background: url("/assets/images/banner.jpg");
     background-size: cover;
     border: 0;
     border-radius: 0;

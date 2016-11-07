@@ -12,7 +12,7 @@
 else{%>
 <html>
 <head>
-    <title>Add game</title>
+    <title><%if(request.getParameter("game").equals("add")){%>Add game<%}else {%>Edit game<%}%></title>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/animate.css">
 </head>
@@ -54,7 +54,7 @@ else{%>
                     <label for="about">Describe game in few words</label>
                 </td>
                 <td>
-                    <textarea maxlength="300" cols="27" rows="4" id="about" name="gameAbout"></textarea>
+                    <textarea maxlength="500" cols="27" rows="4" id="about" name="gameAbout"></textarea>
                 </td>
             </tr>
         </table>

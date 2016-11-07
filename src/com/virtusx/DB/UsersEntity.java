@@ -3,11 +3,8 @@ package com.virtusx.DB;
 import javax.persistence.*;
 import java.sql.Date;
 
-/**
- * Created by x-13 on 02.11.2016.
- */
 @Entity
-@Table(name = "users", schema = "mydb", catalog = "")
+@Table(name = "users", schema = "mydb")
 public class UsersEntity {
     private int userId;
     private String userName;
@@ -59,7 +56,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "user_pic", nullable = true, length = 100)
+    @Column(name = "user_pic", length = 100)
     public String getUserPic() {
         return userPic;
     }
@@ -69,7 +66,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "user_birthday", nullable = true)
+    @Column(name = "user_birthday")
     public Date getUserBirthday() {
         return userBirthday;
     }
@@ -79,7 +76,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "user_location", nullable = true, length = 100)
+    @Column(name = "user_location", length = 100)
     public String getUserLocation() {
         return userLocation;
     }
@@ -89,7 +86,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "user_about", nullable = true, length = 300)
+    @Column(name = "user_about", length = 300)
     public String getUserAbout() {
         return userAbout;
     }
@@ -105,16 +102,8 @@ public class UsersEntity {
 
         UsersEntity that = (UsersEntity) o;
 
-        if (userId != that.userId) return false;
-        if (userName != null ? !userName.equals(that.userName) : that.userName != null) return false;
-        if (userPassword != null ? !userPassword.equals(that.userPassword) : that.userPassword != null) return false;
-        if (userEmail != null ? !userEmail.equals(that.userEmail) : that.userEmail != null) return false;
-        if (userPic != null ? !userPic.equals(that.userPic) : that.userPic != null) return false;
-        if (userBirthday != null ? !userBirthday.equals(that.userBirthday) : that.userBirthday != null) return false;
-        if (userLocation != null ? !userLocation.equals(that.userLocation) : that.userLocation != null) return false;
-        if (userAbout != null ? !userAbout.equals(that.userAbout) : that.userAbout != null) return false;
+        return userId == that.userId && (userName != null ? userName.equals(that.userName) : that.userName == null && (userPassword != null ? userPassword.equals(that.userPassword) : that.userPassword == null && (userEmail != null ? userEmail.equals(that.userEmail) : that.userEmail == null && (userPic != null ? userPic.equals(that.userPic) : that.userPic == null && (userBirthday != null ? userBirthday.equals(that.userBirthday) : that.userBirthday == null && (userLocation != null ? userLocation.equals(that.userLocation) : that.userLocation == null && (userAbout != null ? userAbout.equals(that.userAbout) : that.userAbout == null)))))));
 
-        return true;
     }
 
     @Override

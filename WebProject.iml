@@ -49,5 +49,6 @@
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="jquery-2.1.4" level="application" />
     <orderEntry type="library" name="polyfiller" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
   </component>
 </module>
